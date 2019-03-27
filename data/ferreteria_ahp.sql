@@ -20,5 +20,5 @@ insert into cliente(nombre,apellido_paterno,apellido_materno,telefono,email)valu
 
 
 CREATE USER 'ahp4'@'localhost' IDENTIFIED BY 'ahp4.2019';
-GRANT ALL PRIVILEGES ON ferreteria_ahp.* TO 'ahp4'@'localhost';
+GRANT ALL PRIVILEGES ON ferreteria_egr.* TO 'ahp4'@'localhost';
 FLUSH PRIVILEGES;
